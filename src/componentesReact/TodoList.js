@@ -1,7 +1,8 @@
-function TodoList (props){
+function TodoList ({children}){
     return (
+        //La propiedad children es la trasformación que se encuentra dentro de un componente
         <ul>
-        {props.children}
+            {children}  
         </ul>
     );
 }

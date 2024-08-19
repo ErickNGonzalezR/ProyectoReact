@@ -1,0 +1,27 @@
+button {
+    border-radius: 50%; /* Ajusta si prefieres bordes menos redondeados */
+    height: 50px;
+    width: 50px; /* Añade un ancho para mantener el tamaño del botón */
+    font-size: 40px;
+    color: white;
+    background-color: cyan;
+    border: 2px solid white; /* Añade estilo al borde */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave para todos los cambios */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+
+  }
+  button:hover {
+    color: cyan;
+    background-color: white;
+    border: 2px solid cyan; /* Ajusta el borde en el estado hover */
+    transform: rotate(-45deg); /* Rota el botón */
+    /* Para ajustar la posición después de la rotación, considera usar translate */
+  }
+  

@@ -1,7 +1,9 @@
+import '../componentesCss/CreateTodo.css'
+
 function CreateTodoButton(){
     return(
         <button>
-            Crear Todo
+            +
         </button>
     );
 }

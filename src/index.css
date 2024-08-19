@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://img.freepik.com/vector-gratis/lista-tareas-hombre-negocios-estilo-plano_79603-145.jpg?t=st=1724105825~exp=1724109425~hmac=b08ca8ee8798297a8cd2bfb010698e9dea444f73ce7863bfea68000a6aacc307&w=740');
+  background-size: 200px; /* Asegura que la imagen cubra toda la pantalla */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position:95% 120%;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (max-width: 400px){
+  body{
+    background-position:95% 127%;
+  }
 }
