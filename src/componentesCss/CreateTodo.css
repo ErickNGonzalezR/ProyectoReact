@@ -1,4 +1,4 @@
-button {
+.createTodo {
     border-radius: 50%; /* Ajusta si prefieres bordes menos redondeados */
     height: 50px;
     width: 50px; /* Añade un ancho para mantener el tamaño del botón */

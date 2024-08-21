@@ -9,7 +9,9 @@ body {
   background-size: 200px; /* Asegura que la imagen cubra toda la pantalla */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   background-position:95% 120%;
-}
+  display: flex;
+    justify-content: center;
+  }
 
 
 code {
